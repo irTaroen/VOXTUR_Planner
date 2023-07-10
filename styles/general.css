@@ -1,0 +1,18 @@
+* {
+  font-family: Poppins, Noto, sans-serif;
+  font-size: 20px;
+}
+
+.firstSection {
+  display: flex;
+  padding: 10px 10px;
+}
+
+.spanHighlight {
+  transition: font-size 0.15s;
+}
+
+.spanHighlight:hover {
+  color: red;
+  font-size: 28px;
+}
