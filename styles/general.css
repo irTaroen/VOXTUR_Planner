@@ -3,16 +3,55 @@
   font-size: 20px;
 }
 
-.firstSection {
+.main {
   display: flex;
-  padding: 10px 10px;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.sideBar {
+  margin-right: 20px;
+  background-color: lightgreen;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.empIcon {
+  width: 100%;
+  scale: 0.5;
+  border-radius: 50%;
+}
+
+.mainView {
+  background-color: lightblue;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+/* animation */
 .spanHighlight {
-  transition: font-size 0.15s;
 }
 
-.spanHighlight:hover {
-  color: red;
-  font-size: 28px;
+.btn:hover {
+  letter-spacing: 0.25em;
+  background-color: #1e9bff;
+  box-shadow: 0 0 35px #1e9bff;
 }
